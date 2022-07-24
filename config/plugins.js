@@ -1,6 +1,5 @@
 module.exports = () => {
     return {
-        ckeditor: true,
-        graphql: true
+        ckeditor: true
     }
 }
