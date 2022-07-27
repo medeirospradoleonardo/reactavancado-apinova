@@ -8,7 +8,7 @@ module.exports = {
         netlifyWebhook && axios.post(netlifyWebhook)
     },
 
-    async afeterUpdate(event) {
+    async afterUpdate(event) {
         const { result, params } = event;
 
         netlifyWebhook && axios.post(netlifyWebhook)
